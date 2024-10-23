@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class MoodHistoryScreen extends StatelessWidget {
+  MoodHistoryScreen({super.key});
   final moodBox = Hive.box('moodBox');
+
+  
 
   @override
   Widget build(BuildContext context) {
