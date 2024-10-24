@@ -4,7 +4,7 @@ class CustomPageTransformer extends StatelessWidget {
   final Widget page;
   final double pageOffset;
 
-  const CustomPageTransformer({
+  const CustomPageTransformer({super.key, 
     required this.page,
     required this.pageOffset,
   });

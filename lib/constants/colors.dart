@@ -1,5 +1,3 @@
-// lib/constants/colors.dart
-
 import 'package:flutter/material.dart';
 
 class AppColors {
@@ -10,4 +8,4 @@ class AppColors {
   static const Color orange = Color(0xFFFF763C);
   static const Color black = Colors.black;
   static const Color white = Colors.white;
-} 
+}
